@@ -1,6 +1,6 @@
 namespace: kafka
 helm:
-  chart: https://gitlab.ctic-dev.com/SM/kafka-helm-chart/-/tree/kafka-brownbag/helm-chart
+  chart: "github.com/twingao/httpbin"
 
   values:
 
