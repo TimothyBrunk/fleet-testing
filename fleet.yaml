@@ -1,5 +1,14 @@
 namespace: kafka
 helm:
-  chart: https://gitlab.ctic-dev.com/SM/kafka-helm-chart/helm-chart
-kustomize:
-  dir: templates/dev
+  chart: https://gitlab.ctic-dev.com/SM/kafka-helm-chart/-/tree/kafka-brownbag/helm-chart
+
+  values:
+
+    podMonitors:
+      enabled: false
+
+    rules:
+      enabled: false
+
+    dashboards:
+      enabled: false
