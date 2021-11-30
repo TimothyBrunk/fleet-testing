@@ -1,0 +1,5 @@
+namespace: kafka
+helm:
+  chart: https://gitlab.ctic-dev.com/SM/kafka-helm-chart/helm-chart
+kustomize:
+  dir: templates/dev
