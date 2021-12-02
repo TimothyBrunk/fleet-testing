@@ -6,7 +6,7 @@ helm:
   releaseName: httpbin
 
   # The directory of the chart in the repo.
-  chart: "github.com/twingao/httpbin"
+  chart: "github.com/TimothyBrunk/helm-testing/tree/test"
 
   # An https to a valid Helm repository to download the chart from
   repo: ""
