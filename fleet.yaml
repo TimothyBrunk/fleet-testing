@@ -6,10 +6,10 @@ helm:
   releaseName: httpbin
 
   # The directory of the chart in the repo.
-  chart: "./dir"
+  chart: "github.com/TimothyBrunk/helm-testing/dir"
 
   # An https to a valid Helm repository to download the chart from
-  repo: "github.com/TimothyBrunk/helm-testing"
+  repo: ""
 
   # Used if repo is set to look up the version of the chart
   version: "test"
