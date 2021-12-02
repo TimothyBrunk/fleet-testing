@@ -6,13 +6,13 @@ helm:
   releaseName: httpbin
 
   # The directory of the chart in the repo.
-  chart: "github.com/TimothyBrunk/helm-testing/dir"
+  chart: "github.com/TimothyBrunk/helm-testing"
 
   # An https to a valid Helm repository to download the chart from
   repo: ""
 
   # Used if repo is set to look up the version of the chart
-  version: "test"
+  version: "test/dir"
 
   # Force recreate resource that can not be updated
   force: false
