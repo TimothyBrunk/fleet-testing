@@ -6,7 +6,7 @@ helm:
   releaseName: httpbin
 
   # The directory of the chart in the repo.
-  chart: "/dir"
+  chart: "./dir"
 
   # An https to a valid Helm repository to download the chart from
   repo: "github.com/TimothyBrunk/helm-testing"
