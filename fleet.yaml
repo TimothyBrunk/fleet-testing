@@ -9,7 +9,7 @@ helm:
   chart: "github.com/TimothyBrunk/helm-testing.git"
 
   # Used if repo is set to look up the version of the chart
-  version: "test/dir"
+  version: "main"
 
   # Force recreate resource that can not be updated
   force: false
