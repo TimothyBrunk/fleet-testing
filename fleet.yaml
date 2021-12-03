@@ -6,10 +6,10 @@ helm:
   releaseName: httpbin
 
   # The directory of the chart in the repo.
-  chart: "gitlab.ctic-dev.com/SM/kafka-helm-chart"
+  chart: "github.com/TimothyBrunk/helm-testing.git"
 
   # Used if repo is set to look up the version of the chart
-  version: "kafka-brownbag/helm-chart"
+  version: "test"
 
   # Force recreate resource that can not be updated
   force: false
